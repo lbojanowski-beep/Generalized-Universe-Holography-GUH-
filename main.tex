@@ -1,0 +1,205 @@
+\documentclass[11pt, a4paper]{article}
+
+% Pakiety podstawowe
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{geometry}
+\geometry{top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm}
+
+% Pakiety matematyczne
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+
+% Pakiety do formatowania
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{titling}
+
+% Konfiguracja linków
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    citecolor=blue,
+}
+
+% Nagłówek i stopka
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textbf{GUH White Paper}}
+\rhead{Version 0.2 | 4 Jan 2026}
+\cfoot{\thepage}
+
+% Tytuł i autorzy
+\title{\textbf{Generalized Universe Holography (GUH):\\A Working Hypothesis}}
+\author{
+    \textbf{Alliance Research Group (ARG)}\\
+    \textbf{Łukasz ``Captain'' Bojanowski}\\
+    \textit{Collaborative Human-AI Exploration}\\
+    \small{(Distilled by Grok, Gemini, and OpenAI-inspired insights for emergent harmony)}
+}
+\date{4 January 2026}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+\begin{center}
+    \textbf{Status:} Working Hypothesis (Non-Dogmatic / Falsifiable) \\
+    \textbf{License:} Open Access – Attribution Required
+\end{center}
+
+% DEDICATION BLOCK START
+\vspace{0.5cm}
+\begin{center}
+    \textit{\small{Dedicated to the memory of the late Professor Kazimierz Musiał (1994-1997),\\
+    my high school physics teacher.\\
+    This work would not have come into existence without the inspiration and passion\\
+    he instilled in me decades ago.}}
+\end{center}
+\vspace{0.5cm}
+% DEDICATION BLOCK END
+
+\begin{abstract}
+The Generalized Universe Holography (GUH) hypothesis extends the holographic principle beyond Anti-de Sitter (AdS) spaces to describe our observed flat or de Sitter-like universe. It posits that the three-dimensional volume of spacetime emerges from information encoded on a lower-dimensional boundary surface, consistent with quantum gravity insights and observational data. GUH is presented as a testable framework, not a definitive theory, inviting empirical validation or falsification through cosmological observations, gravitational wave data, and quantum information experiments.
+
+\vspace{0.2cm}
+\noindent \textbf{Keywords:} holographic principle, quantum gravity, cosmology, black hole information, emergent spacetime
+\end{abstract}
+
+\vspace{0.5cm}
+
+\section{Introduction}
+The holographic principle, first proposed by 't Hooft (1993) and Susskind (1995), states that the description of a volume of space can be encoded on its boundary surface, with information density bounded by the surface area rather than volume. This idea, formalized in the AdS/CFT correspondence by Maldacena (1998), has profoundly influenced quantum gravity research.
+
+GUH generalizes this principle to cosmologies beyond AdS, including our observed $\Lambda$CDM universe. It suggests that apparent three-dimensional reality emerges from a two-dimensional "screen" at the cosmological horizon, resolving tensions between quantum mechanics and general relativity while remaining consistent with current observations.
+
+This document presents GUH as a working hypothesis for further exploration, not as established fact. Insights were distilled collaboratively from multiple AI perspectives (Grok for emergent creativity, Gemini for analytical precision, OpenAI-inspired for structural synthesis) to ensure a balanced, non-dogmatic approach.
+
+\section{Foundations of the Holographic Principle}
+
+\subsection{Black Hole Thermodynamics}
+Bekenstein (1973) and Hawking (1975) showed that black hole entropy is proportional to horizon area:
+\begin{equation}
+    S = \frac{kc^3 A}{4\hbar G}
+\end{equation}
+where $A$ is horizon area, $k$ Boltzmann's constant, $c$ speed of light, $\hbar$ reduced Planck's constant, and $G$ gravitational constant. This implies information content scales with surface area, not volume ('t Hooft, 1993; Susskind, 1995). Mathematically, the entropy bound for a region of space is $S \leq (A/4)$ in Planck units, suggesting holographic encoding.
+
+\subsection{AdS/CFT Correspondence}
+Maldacena (1998) demonstrated exact duality between gravity in Anti-de Sitter space (AdS) and conformal field theory (CFT) on its boundary, providing mathematical evidence for holography in curved spacetimes. The duality is expressed as:
+\begin{equation}
+    Z_{AdS} = Z_{CFT}
+\end{equation}
+where $Z$ is partition function, linking bulk gravity to boundary quantum field theory.
+
+\subsection{Extensions to Flat and de Sitter Space}
+Recent work explores holography in cosmologically relevant spaces:
+\begin{itemize}
+    \item \textbf{Celestial holography} (Pasterski et al., 2023) for flat spacetime, where asymptotic symmetries map to 2D CFT on celestial sphere.
+    \item \textbf{dS/CFT proposals} for de Sitter-like universes (Strominger, 2001; updated models 2024-2025), with entropy scaling as $S_{dS} \sim (A / 4G)$, where $A$ is cosmological horizon area.
+\end{itemize}
+
+\section{Generalized Universe Holography (GUH) Hypothesis}
+GUH proposes:
+\begin{itemize}
+    \item The observable universe's degrees of freedom are encoded on a lower-dimensional boundary (cosmological horizon or similar surface).
+    \item Three-dimensional spacetime and matter fields emerge from quantum entanglement and information processing on this boundary.
+    \item Gravitational dynamics (including dark energy effects) arise from boundary quantum information evolution.
+\end{itemize}
+
+\noindent GUH remains consistent with:
+\begin{itemize}
+    \item $\Lambda$CDM cosmology parameters (Planck Collaboration, 2020; DESI 2025 updates).
+    \item Gravitational wave observations (LIGO/Virgo/KAGRA detections).
+    \item Black hole imaging (Event Horizon Telescope, 2022-2025).
+\end{itemize}
+
+\subsection{Mathematical Formulation}
+In GUH, the entropy of a cosmological region is bounded by its boundary area:
+\begin{equation}
+    S \leq \frac{A}{4l_P^2}
+\end{equation}
+where $l_P$ is Planck length. For flat spacetime, the boundary is taken as the null infinity or particle horizon, with information encoded in a 2D quantum field theory. The emergent metric satisfies:
+\begin{equation}
+    ds^2 = g_{\mu\nu}dx^\mu dx^\nu
+\end{equation}
+where $g_{\mu\nu}$ derives from boundary CFT correlators via duality similar to AdS/CFT, but generalized to flat space (e.g., via Carrollian geometry or celestial CFT).
+
+For de Sitter space, GUH extends dS/CFT with entropy:
+\begin{equation}
+    S_{dS} = \frac{3\pi}{G\Lambda}
+\end{equation}
+where $\Lambda$ is cosmological constant, linking to holographic dark energy models.
+
+\section{Testable Predictions and Validation Paths}
+GUH generates falsifiable predictions:
+\begin{itemize}
+    \item Specific patterns in cosmic microwave background (CMB) power spectrum beyond standard $\Lambda$CDM (potential anomalies in large-scale modes).
+    \item Subtle deviations in gravitational wave propagation from distant mergers.
+    \item Information-theoretic constraints on cosmological evolution.
+\end{itemize}
+
+\noindent \textbf{Suggested Validation Paths:}
+\begin{itemize}
+    \item Analysis of CMB data for holographic signatures (e.g., boundary entropy correlations).
+    \item Gravitational wave template modifications incorporating holographic corrections.
+    \item Quantum information experiments probing entanglement structure in analogue systems.
+\end{itemize}
+
+\section{Implications and Open Questions}
+If validated, GUH could:
+\begin{itemize}
+    \item Resolve the black hole information paradox via boundary encoding.
+    \item Provide new insights into dark energy as emergent boundary effect.
+    \item Offer computational advantages in quantum gravity simulations.
+\end{itemize}
+
+\noindent \textbf{Open questions include:}
+\begin{itemize}
+    \item Exact boundary location in flat/de Sitter space.
+    \item Relationship to quantum entanglement and observer dependence.
+    \item Compatibility with inflationary models.
+\end{itemize}
+
+\begin{thebibliography}{9}
+
+\bibitem{bekenstein1973}
+Bekenstein, J. D. (1973). Black holes and entropy. \textit{Physical Review D}, 7(8), 2333–2346.
+
+\bibitem{hawking1975}
+Hawking, S. W. (1975). Particle creation by black holes. \textit{Communications in Mathematical Physics}, 43(3), 199–220.
+
+\bibitem{thooft1993}
+'t Hooft, G. (1993). Dimensional reduction in quantum gravity. arXiv:gr-qc/9310026.
+
+\bibitem{susskind1995}
+Susskind, L. (1995). The world as a hologram. \textit{Journal of Mathematical Physics}, 36(11), 6377–6396.
+
+\bibitem{maldacena1998}
+Maldacena, J. (1998). The large N limit of superconformal field theories and supergravity. \textit{Advances in Theoretical and Mathematical Physics}, 2, 231–252.
+
+\bibitem{pasterski2023}
+Pasterski, S., et al. (2023). Celestial holography. \textit{Reviews of Modern Physics}.
+
+\bibitem{planck2020}
+Planck Collaboration. (2020). Planck 2018 results. VI. Cosmological parameters. \textit{Astronomy \& Astrophysics}, 641, A6.
+
+\bibitem{eht2025}
+Event Horizon Telescope Collaboration. (2022-2025). First Sagittarius A* and M87 images and follow-ups.
+
+\end{thebibliography}
+
+\vspace{1cm}
+\hrule
+\vspace{0.3cm}
+\noindent \small{\textbf{ARG Research Disclaimer:} This document presents working hypotheses for scientific discussion. It does not claim medical, therapeutic, or commercial applications. Independent validation required.\\
+\textbf{Alliance Research Group} – Exploring Human-AI Co-Creation\\
+ar-group.ai | January 2026}
+
+\end{document}
